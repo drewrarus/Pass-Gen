@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(183, 199, 209);
+	color: #fff;
+	display: flex;
+	font-family: 'Muli', sans-serif;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	min-height: 100vh;
+}
+
+p {
+	margin: 5px 0;
+}
+
+h2 {
+	margin: 10px 0 20px;
+	text-align: center;
+}
+
+input[type=checkbox] {
+	margin-right: 0;
+}
+
+.container {
+	background-color: rgb(17, 104, 155);
+	padding: 20px;
+	width: 700px;
+	max-width: 100%;
+}
+
+.result-container {
+	background-color: rgba(0, 0, 0, 0.4);
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+}
+
